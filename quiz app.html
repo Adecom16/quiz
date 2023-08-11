@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+       <link rel="stylesheet" href="./quiz app.css">
+       
+    </head>
+    <body>
+        <div class = "start"><button>Start Quiz</button></div>
+        
+        <div class = "info-box">
+        
+            <div class = "info-title">Rules of this quiz</div>
+              <div class = "info-list">
+                <div class = "info"><i class = "fas fa-asterisk"></i>  You only have <span>10 seconds</span> for each question.</div>
+                <div class = "info"><i class = "fas fa-asterisk"></i>  You have to select an option before you can go to the next question.</div>
+                <div class = "info"><i class = "fas fa-asterisk"></i>  There's no going back after selecting an option.</div>
+                <div class = "info"><i class = "fas fa-asterisk"></i>  You cannot select an option once the timer goes off.</div>
+                <div class = "info"><i class = "fas fa-asterisk"></i>  You cannot exit the quiz while playing.</div>
+                <div class = "buttons">
+                    <button class = "quit">Exit Quiz</button>
+                    <button class = "cont">Continue</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class = "quiz-box">
+            <header>
+                <div class = "title">Quiz App</div>
+                  <div class = "timer">
+                    <div class = "text">Time left </div>
+                    <div class = "sec">10</div>
+                 </div>
+              <div class = "timeline"></div>
+           </header>
+                
+         
+                <section>
+                <div class = "question">
+             <!-- question goes in here -->
+                </div>
+                <div class = "option-list">
+                   <div class = "option">
+                     <!--   options goes in here -->
+                    </div> 
+                    </div>
+                    </section>
+                    
+                              
+        <footer>
+            <div class = "total-questions">
+            </div>
+            <button class = "next">Next</button>
+        </footer>   
+        </div>
+        
+         <div class = "result-box">
+            <div class = "icon">
+        <img src="https://www.dropbox.com/s/2b81pov6c4nuev3/crown.png?dl=1">
+            </div>
+         <div class = "complete-text">You have completed the quiz !</div>
+         <div class = "score-text"> 
+         </div>
+         <div class = "buttons">
+                <button class = "restart">Replay</button>
+                <button class = "exit">Exit</button>
+         </div  
+         </div>
+       
+      <!--JavaScript-->
+         <script src="./config.js"></script>
+        <script src="./quiz app.js"></script>
+    </body>
+</html>
